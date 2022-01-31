@@ -19,6 +19,10 @@
 		E3017EE427A7E3FE002789E6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3017EE327A7E3FE002789E6 /* SignUpViewController.swift */; };
 		E3017EE627A7E470002789E6 /* ViewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3017EE527A7E470002789E6 /* ViewPostViewController.swift */; };
 		E3017EE827A7E489002789E6 /* CreateNewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3017EE727A7E489002789E6 /* CreateNewPostViewController.swift */; };
+		E3017EEA27A8033F002789E6 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3017EE927A8033F002789E6 /* APIManager.swift */; };
+		E3017EEC27A8034C002789E6 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3017EEB27A8034C002789E6 /* DatabaseManager.swift */; };
+		E3017EEE27A80426002789E6 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3017EED27A80426002789E6 /* AuthManager.swift */; };
+		E3017EF027A8042E002789E6 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3017EEF27A8042E002789E6 /* StorageManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +40,10 @@
 		E3017EE327A7E3FE002789E6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		E3017EE527A7E470002789E6 /* ViewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPostViewController.swift; sourceTree = "<group>"; };
 		E3017EE727A7E489002789E6 /* CreateNewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewPostViewController.swift; sourceTree = "<group>"; };
+		E3017EE927A8033F002789E6 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		E3017EEB27A8034C002789E6 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
+		E3017EED27A80426002789E6 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		E3017EEF27A8042E002789E6 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,13 +106,9 @@
 		E3017EDA27A7E15F002789E6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E3017EC827A7DC7F002789E6 /* HomeViewController.swift */,
-				E3017EDD27A7E325002789E6 /* ProfileViewController.swift */,
-				E3017EDF27A7E3B2002789E6 /* TabBarViewController.swift */,
-				E3017EE127A7E3ED002789E6 /* SignInViewController.swift */,
-				E3017EE327A7E3FE002789E6 /* SignUpViewController.swift */,
-				E3017EE527A7E470002789E6 /* ViewPostViewController.swift */,
-				E3017EE727A7E489002789E6 /* CreateNewPostViewController.swift */,
+				E3017EF127A809BB002789E6 /* CoreTabs */,
+				E3017EF227A809EF002789E6 /* Auth */,
+				E3017EF327A809F9002789E6 /* Posts */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -121,8 +125,40 @@
 		E3017EDC27A7E177002789E6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				E3017EE927A8033F002789E6 /* APIManager.swift */,
+				E3017EEB27A8034C002789E6 /* DatabaseManager.swift */,
+				E3017EED27A80426002789E6 /* AuthManager.swift */,
+				E3017EEF27A8042E002789E6 /* StorageManager.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		E3017EF127A809BB002789E6 /* CoreTabs */ = {
+			isa = PBXGroup;
+			children = (
+				E3017EC827A7DC7F002789E6 /* HomeViewController.swift */,
+				E3017EDD27A7E325002789E6 /* ProfileViewController.swift */,
+				E3017EDF27A7E3B2002789E6 /* TabBarViewController.swift */,
+			);
+			path = CoreTabs;
+			sourceTree = "<group>";
+		};
+		E3017EF227A809EF002789E6 /* Auth */ = {
+			isa = PBXGroup;
+			children = (
+				E3017EE127A7E3ED002789E6 /* SignInViewController.swift */,
+				E3017EE327A7E3FE002789E6 /* SignUpViewController.swift */,
+			);
+			path = Auth;
+			sourceTree = "<group>";
+		};
+		E3017EF327A809F9002789E6 /* Posts */ = {
+			isa = PBXGroup;
+			children = (
+				E3017EE527A7E470002789E6 /* ViewPostViewController.swift */,
+				E3017EE727A7E489002789E6 /* CreateNewPostViewController.swift */,
+			);
+			path = Posts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,7 +233,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3017EC927A7DC7F002789E6 /* HomeViewController.swift in Sources */,
+				E3017EEE27A80426002789E6 /* AuthManager.swift in Sources */,
+				E3017EEC27A8034C002789E6 /* DatabaseManager.swift in Sources */,
 				E3017EE427A7E3FE002789E6 /* SignUpViewController.swift in Sources */,
+				E3017EEA27A8033F002789E6 /* APIManager.swift in Sources */,
 				E3017EC527A7DC7F002789E6 /* AppDelegate.swift in Sources */,
 				E3017EE227A7E3EE002789E6 /* SignInViewController.swift in Sources */,
 				E3017EDE27A7E325002789E6 /* ProfileViewController.swift in Sources */,
@@ -205,6 +244,7 @@
 				E3017EE027A7E3B2002789E6 /* TabBarViewController.swift in Sources */,
 				E3017EC727A7DC7F002789E6 /* SceneDelegate.swift in Sources */,
 				E3017EE627A7E470002789E6 /* ViewPostViewController.swift in Sources */,
+				E3017EF027A8042E002789E6 /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
