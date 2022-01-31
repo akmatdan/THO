@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		E3017EC527A7DC7F002789E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3017EC427A7DC7F002789E6 /* AppDelegate.swift */; };
 		E3017EC727A7DC7F002789E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3017EC627A7DC7F002789E6 /* SceneDelegate.swift */; };
-		E3017EC927A7DC7F002789E6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3017EC827A7DC7F002789E6 /* ViewController.swift */; };
+		E3017EC927A7DC7F002789E6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3017EC827A7DC7F002789E6 /* HomeViewController.swift */; };
 		E3017ECC27A7DC7F002789E6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3017ECA27A7DC7F002789E6 /* Main.storyboard */; };
 		E3017ECE27A7DC82002789E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3017ECD27A7DC82002789E6 /* Assets.xcassets */; };
 		E3017ED127A7DC82002789E6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3017ECF27A7DC82002789E6 /* LaunchScreen.storyboard */; };
+		E3017EDE27A7E325002789E6 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3017EDD27A7E325002789E6 /* ProfileViewController.swift */; };
+		E3017EE027A7E3B2002789E6 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3017EDF27A7E3B2002789E6 /* TabBarViewController.swift */; };
+		E3017EE227A7E3EE002789E6 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3017EE127A7E3ED002789E6 /* SignInViewController.swift */; };
+		E3017EE427A7E3FE002789E6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3017EE327A7E3FE002789E6 /* SignUpViewController.swift */; };
+		E3017EE627A7E470002789E6 /* ViewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3017EE527A7E470002789E6 /* ViewPostViewController.swift */; };
+		E3017EE827A7E489002789E6 /* CreateNewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3017EE727A7E489002789E6 /* CreateNewPostViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E3017EC127A7DC7F002789E6 /* THO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3017EC427A7DC7F002789E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3017EC627A7DC7F002789E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E3017EC827A7DC7F002789E6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E3017EC827A7DC7F002789E6 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		E3017ECB27A7DC7F002789E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3017ECD27A7DC82002789E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3017ED027A7DC82002789E6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3017ED227A7DC83002789E6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3017EDD27A7E325002789E6 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		E3017EDF27A7E3B2002789E6 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		E3017EE127A7E3ED002789E6 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		E3017EE327A7E3FE002789E6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		E3017EE527A7E470002789E6 /* ViewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPostViewController.swift; sourceTree = "<group>"; };
+		E3017EE727A7E489002789E6 /* CreateNewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewPostViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,7 +98,13 @@
 		E3017EDA27A7E15F002789E6 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				E3017EC827A7DC7F002789E6 /* ViewController.swift */,
+				E3017EC827A7DC7F002789E6 /* HomeViewController.swift */,
+				E3017EDD27A7E325002789E6 /* ProfileViewController.swift */,
+				E3017EDF27A7E3B2002789E6 /* TabBarViewController.swift */,
+				E3017EE127A7E3ED002789E6 /* SignInViewController.swift */,
+				E3017EE327A7E3FE002789E6 /* SignUpViewController.swift */,
+				E3017EE527A7E470002789E6 /* ViewPostViewController.swift */,
+				E3017EE727A7E489002789E6 /* CreateNewPostViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -178,9 +196,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3017EC927A7DC7F002789E6 /* ViewController.swift in Sources */,
+				E3017EC927A7DC7F002789E6 /* HomeViewController.swift in Sources */,
+				E3017EE427A7E3FE002789E6 /* SignUpViewController.swift in Sources */,
 				E3017EC527A7DC7F002789E6 /* AppDelegate.swift in Sources */,
+				E3017EE227A7E3EE002789E6 /* SignInViewController.swift in Sources */,
+				E3017EDE27A7E325002789E6 /* ProfileViewController.swift in Sources */,
+				E3017EE827A7E489002789E6 /* CreateNewPostViewController.swift in Sources */,
+				E3017EE027A7E3B2002789E6 /* TabBarViewController.swift in Sources */,
 				E3017EC727A7DC7F002789E6 /* SceneDelegate.swift in Sources */,
+				E3017EE627A7E470002789E6 /* ViewPostViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
