@@ -1,0 +1,6 @@
+framework module Pods_THO {
+  umbrella header "Pods-THO-umbrella.h"
+
+  export *
+  module * { export * }
+}

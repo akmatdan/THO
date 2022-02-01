@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4333EB51B36488F0D13DB104 /* Pods_THO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2175C80D96AF93FACB774ADD /* Pods_THO.framework */; };
 		E3017EC527A7DC7F002789E6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3017EC427A7DC7F002789E6 /* AppDelegate.swift */; };
 		E3017EC727A7DC7F002789E6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3017EC627A7DC7F002789E6 /* SceneDelegate.swift */; };
 		E3017EC927A7DC7F002789E6 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3017EC827A7DC7F002789E6 /* HomeViewController.swift */; };
@@ -19,13 +20,16 @@
 		E3017EE427A7E3FE002789E6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3017EE327A7E3FE002789E6 /* SignUpViewController.swift */; };
 		E3017EE627A7E470002789E6 /* ViewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3017EE527A7E470002789E6 /* ViewPostViewController.swift */; };
 		E3017EE827A7E489002789E6 /* CreateNewPostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3017EE727A7E489002789E6 /* CreateNewPostViewController.swift */; };
-		E3017EEA27A8033F002789E6 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3017EE927A8033F002789E6 /* APIManager.swift */; };
+		E3017EEA27A8033F002789E6 /* IAPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3017EE927A8033F002789E6 /* IAPManager.swift */; };
 		E3017EEC27A8034C002789E6 /* DatabaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3017EEB27A8034C002789E6 /* DatabaseManager.swift */; };
 		E3017EEE27A80426002789E6 /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3017EED27A80426002789E6 /* AuthManager.swift */; };
 		E3017EF027A8042E002789E6 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3017EEF27A8042E002789E6 /* StorageManager.swift */; };
+		E38D7DCC27A9054E002E4526 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E38D7DCB27A9054E002E4526 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		13E37D90BFCB7EB54F192552 /* Pods-THO.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THO.debug.xcconfig"; path = "Target Support Files/Pods-THO/Pods-THO.debug.xcconfig"; sourceTree = "<group>"; };
+		2175C80D96AF93FACB774ADD /* Pods_THO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_THO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3017EC127A7DC7F002789E6 /* THO.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = THO.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3017EC427A7DC7F002789E6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E3017EC627A7DC7F002789E6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -40,10 +44,12 @@
 		E3017EE327A7E3FE002789E6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		E3017EE527A7E470002789E6 /* ViewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewPostViewController.swift; sourceTree = "<group>"; };
 		E3017EE727A7E489002789E6 /* CreateNewPostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateNewPostViewController.swift; sourceTree = "<group>"; };
-		E3017EE927A8033F002789E6 /* APIManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		E3017EE927A8033F002789E6 /* IAPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPManager.swift; sourceTree = "<group>"; };
 		E3017EEB27A8034C002789E6 /* DatabaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatabaseManager.swift; sourceTree = "<group>"; };
 		E3017EED27A80426002789E6 /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
 		E3017EEF27A8042E002789E6 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
+		E38D7DCB27A9054E002E4526 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F48B8E30CBAC704BFC805A39 /* Pods-THO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THO.release.xcconfig"; path = "Target Support Files/Pods-THO/Pods-THO.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,17 +57,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4333EB51B36488F0D13DB104 /* Pods_THO.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5E7595532AF77C436ADE33ED /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2175C80D96AF93FACB774ADD /* Pods_THO.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6F20B1C1CDBEDDE411414A7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13E37D90BFCB7EB54F192552 /* Pods-THO.debug.xcconfig */,
+				F48B8E30CBAC704BFC805A39 /* Pods-THO.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		E3017EB827A7DC7F002789E6 = {
 			isa = PBXGroup;
 			children = (
 				E3017EC327A7DC7F002789E6 /* THO */,
 				E3017EC227A7DC7F002789E6 /* Products */,
+				6F20B1C1CDBEDDE411414A7E /* Pods */,
+				5E7595532AF77C436ADE33ED /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +108,7 @@
 				E3017ED927A7E151002789E6 /* Managers */,
 				E3017ED827A7E142002789E6 /* Other */,
 				E3017ED227A7DC83002789E6 /* Info.plist */,
+				E38D7DCB27A9054E002E4526 /* GoogleService-Info.plist */,
 			);
 			path = THO;
 			sourceTree = "<group>";
@@ -125,7 +152,7 @@
 		E3017EDC27A7E177002789E6 /* Models */ = {
 			isa = PBXGroup;
 			children = (
-				E3017EE927A8033F002789E6 /* APIManager.swift */,
+				E3017EE927A8033F002789E6 /* IAPManager.swift */,
 				E3017EEB27A8034C002789E6 /* DatabaseManager.swift */,
 				E3017EED27A80426002789E6 /* AuthManager.swift */,
 				E3017EEF27A8042E002789E6 /* StorageManager.swift */,
@@ -168,9 +195,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E3017ED527A7DC83002789E6 /* Build configuration list for PBXNativeTarget "THO" */;
 			buildPhases = (
+				DA1DF283B9D0763DD00BEA61 /* [CP] Check Pods Manifest.lock */,
 				E3017EBD27A7DC7F002789E6 /* Sources */,
 				E3017EBE27A7DC7F002789E6 /* Frameworks */,
 				E3017EBF27A7DC7F002789E6 /* Resources */,
+				95C6DD3A39C75B32FBC6AB6F /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -220,12 +249,55 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3017ED127A7DC82002789E6 /* LaunchScreen.storyboard in Resources */,
+				E38D7DCC27A9054E002E4526 /* GoogleService-Info.plist in Resources */,
 				E3017ECE27A7DC82002789E6 /* Assets.xcassets in Resources */,
 				E3017ECC27A7DC7F002789E6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		95C6DD3A39C75B32FBC6AB6F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-THO/Pods-THO-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-THO/Pods-THO-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-THO/Pods-THO-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA1DF283B9D0763DD00BEA61 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-THO-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		E3017EBD27A7DC7F002789E6 /* Sources */ = {
@@ -236,7 +308,7 @@
 				E3017EEE27A80426002789E6 /* AuthManager.swift in Sources */,
 				E3017EEC27A8034C002789E6 /* DatabaseManager.swift in Sources */,
 				E3017EE427A7E3FE002789E6 /* SignUpViewController.swift in Sources */,
-				E3017EEA27A8033F002789E6 /* APIManager.swift in Sources */,
+				E3017EEA27A8033F002789E6 /* IAPManager.swift in Sources */,
 				E3017EC527A7DC7F002789E6 /* AppDelegate.swift in Sources */,
 				E3017EE227A7E3EE002789E6 /* SignInViewController.swift in Sources */,
 				E3017EDE27A7E325002789E6 /* ProfileViewController.swift in Sources */,
@@ -388,6 +460,7 @@
 		};
 		E3017ED627A7DC83002789E6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13E37D90BFCB7EB54F192552 /* Pods-THO.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -407,7 +480,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.-authenticdeveloper.THO-";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aestheticdev.THO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -417,6 +490,7 @@
 		};
 		E3017ED727A7DC83002789E6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F48B8E30CBAC704BFC805A39 /* Pods-THO.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,7 +510,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.-authenticdeveloper.THO-";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aestheticdev.THO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
