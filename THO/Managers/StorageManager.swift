@@ -30,7 +30,7 @@ final class StorageManager {
         }
     
     public func uploadBlockHeaderImage(
-        blogPost: BlogPost
+        blogPost: BlogPost,
         image: UIImage?,
         complition: @escaping (Bool) -> Void) {
             

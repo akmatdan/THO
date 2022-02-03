@@ -13,8 +13,11 @@ final class IAPManager {
     
     private init() {}
     
-    func isPremium() {
-        
+    // RevenueCat Shared Secret
+    // 00000abc
+    
+    func isPremium() -> Bool {
+        return false
     }
     
     func subscribe() {
