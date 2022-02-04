@@ -28,6 +28,9 @@
 		E38D7DCE27AB843D002E4526 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38D7DCD27AB843D002E4526 /* User.swift */; };
 		E38D7DD027AB844A002E4526 /* BlogPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38D7DCF27AB844A002E4526 /* BlogPost.swift */; };
 		E38D7DD327AC4834002E4526 /* PayWallViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38D7DD227AC4834002E4526 /* PayWallViewController.swift */; };
+		E3B5C9DF27AD9A29003C5874 /* PayWallHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5C9DE27AD9A29003C5874 /* PayWallHeaderView.swift */; };
+		E3B5C9E327ADA2E4003C5874 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5C9E227ADA2E4003C5874 /* Extensions.swift */; };
+		E3B5C9E527ADB4FC003C5874 /* PayWallDescriptionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B5C9E427ADB4FC003C5874 /* PayWallDescriptionView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +59,9 @@
 		E38D7DCF27AB844A002E4526 /* BlogPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlogPost.swift; sourceTree = "<group>"; };
 		E38D7DD227AC4834002E4526 /* PayWallViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayWallViewController.swift; sourceTree = "<group>"; };
 		E38D7DD427AC5F83002E4526 /* Configuration.storekit */ = {isa = PBXFileReference; lastKnownFileType = text; path = Configuration.storekit; sourceTree = "<group>"; };
+		E3B5C9DE27AD9A29003C5874 /* PayWallHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayWallHeaderView.swift; sourceTree = "<group>"; };
+		E3B5C9E227ADA2E4003C5874 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		E3B5C9E427ADB4FC003C5874 /* PayWallDescriptionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayWallDescriptionView.swift; sourceTree = "<group>"; };
 		F48B8E30CBAC704BFC805A39 /* Pods-THO.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-THO.release.xcconfig"; path = "Target Support Files/Pods-THO/Pods-THO.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -115,7 +121,6 @@
 				E3017ED927A7E151002789E6 /* Managers */,
 				E3017ED827A7E142002789E6 /* Other */,
 				E3017ED227A7DC83002789E6 /* Info.plist */,
-				E38D7DCB27A9054E002E4526 /* GoogleService-Info.plist */,
 			);
 			path = THO;
 			sourceTree = "<group>";
@@ -126,6 +131,8 @@
 				E3017EC427A7DC7F002789E6 /* AppDelegate.swift */,
 				E3017EC627A7DC7F002789E6 /* SceneDelegate.swift */,
 				E3017ECD27A7DC82002789E6 /* Assets.xcassets */,
+				E38D7DCB27A9054E002E4526 /* GoogleService-Info.plist */,
+				E3B5C9E227ADA2E4003C5874 /* Extensions.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -157,6 +164,8 @@
 			children = (
 				E3017ECA27A7DC7F002789E6 /* Main.storyboard */,
 				E3017ECF27A7DC82002789E6 /* LaunchScreen.storyboard */,
+				E3B5C9DE27AD9A29003C5874 /* PayWallHeaderView.swift */,
+				E3B5C9E427ADB4FC003C5874 /* PayWallDescriptionView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -324,10 +333,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				E38D7DD027AB844A002E4526 /* BlogPost.swift in Sources */,
+				E3B5C9E527ADB4FC003C5874 /* PayWallDescriptionView.swift in Sources */,
+				E3B5C9E327ADA2E4003C5874 /* Extensions.swift in Sources */,
 				E3017EC927A7DC7F002789E6 /* HomeViewController.swift in Sources */,
 				E3017EEE27A80426002789E6 /* AuthManager.swift in Sources */,
 				E3017EEC27A8034C002789E6 /* DatabaseManager.swift in Sources */,
 				E3017EE427A7E3FE002789E6 /* SignUpViewController.swift in Sources */,
+				E3B5C9DF27AD9A29003C5874 /* PayWallHeaderView.swift in Sources */,
 				E3017EEA27A8033F002789E6 /* IAPManager.swift in Sources */,
 				E3017EC527A7DC7F002789E6 /* AppDelegate.swift in Sources */,
 				E38D7DCE27AB843D002E4526 /* User.swift in Sources */,
